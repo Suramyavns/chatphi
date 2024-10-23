@@ -4,7 +4,7 @@ import os
 import streamlit as st
 
 load_dotenv()
-
+st.set_page_config('PHI-CHAT',page_icon='microsoft.png')
 st.title('PHI-CHAT')
 st.subheader('Chat with Microsoft PHI as much as you want')
 
